@@ -54,6 +54,15 @@ temperature: temperature when the record was taken
 description: brief description of weather conditions, e.g. "light rain" or "scattered clouds"
 
 ## Table Scheme
-<img src="![Table_scheme](https://github.com/zoeyvero/Taxi-Trends-Data-Collection/assets/10578571/92edd18c-9871-45df-bb7f-c602df9d47b6)
-" alt="Image Description">
+<img src="![Table_scheme](https://github.com/zoeyvero/Taxi-Trends-Data-Collection/assets/10578571/92edd18c-9871-45df-bb7f-c602df9d47b6)" alt="Image Description">
+
+## Conclusion
+We imported the data and searched for inconsistences and null values. We found that there were no duplicates or null values. We then merged the dataframes and created graphs to show the top 10 dropoff locations and taxi companies. 
+
+The **top 10 companies** were Flash Cab, Taxi Affiliation Services, Yellow Cab, Medallion Leasing, Taxi Affiliation Service Yellow, Chicago Carriage Cab Corp, City Service, Sun Taxi, Star North Management LLC, and Blue Ribbon Taxi Association Inc.
+
+The **top 10 dropoff locations** were Loop, River North, Streeterville, West Loop, O'Hare, Lake View, Grant Park, Museum Campus, Gold Coast, and Sheffield & DePaul.
+
+We then imported the next dataframe and converted the start_ts column to datetime. Then created a new column for the day of the week as well as a new dataframe for Saturdays with the weather conditions. After calculating the average duration of rides on good, or rainy weather Saturdays, we then calculated the t-statistic and p-value. Testing the hypothesis with a calculated t-statistic and p-value, we then compared the p-value to the alpha value, which determined to reject the null hypothesis. We concluded that there is statistically significant difference in average ride durations on rainy Saturdays.
+
 
