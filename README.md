@@ -54,7 +54,7 @@ temperature: temperature when the record was taken
 description: brief description of weather conditions, e.g. "light rain" or "scattered clouds"
 
 ## Table Scheme
-<img src="![Table_scheme](https://github.com/zoeyvero/Taxi-Trends-Data-Collection/assets/10578571/92edd18c-9871-45df-bb7f-c602df9d47b6)" alt="Image Description">
+<img src="Table_scheme.png" alt="Image Description">
 
 ## Conclusion
 We imported the data and searched for inconsistences and null values. We found that there were no duplicates or null values. We then merged the dataframes and created graphs to show the top 10 dropoff locations and taxi companies. 
